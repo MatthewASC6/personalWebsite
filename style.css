@@ -1,0 +1,129 @@
+#spotify{
+    display: inline-block;
+    width: 275px;
+}
+img{
+    width: 200px;
+    height: auto;
+}
+.col-sm{
+    display:flex;
+    justify-content: space-evenly;
+    justify-content: space-between;
+}
+/* .socialMedia{
+    display: flex;
+    justify-content: space-evenly;
+    width: 275px;
+    height: auto;
+} */
+#me{
+    display: block;
+    margin: auto;
+    width: 870px;
+    height: auto;
+}
+
+#playlist{
+    display: none;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+body{
+    background-color: black
+}
+
+h1.jumbotron.Jumbo{
+    margin:0px;
+}
+
+.jumbotron {
+    background-image: url("https://images.kerrangcdn.com/K1774-Slipknot-cover-header.jpg?auto=compress&fit=crop&w=1200");
+    background-size: 25%;
+
+}
+
+
+
+h1{
+    font-family: "Shadows Into Light", cursive;
+    font-size: 70px;
+    padding: 10px;
+    color: whitesmoke
+    
+}
+
+.media{
+    display:inline-block;
+    width: 275px;
+    height: auto;
+}
+
+.Links{
+    display: inline-block;
+    /* border-style: solid;
+    border-width: 10px; */
+    text-align: center;
+    margin-left: 130px;
+    font-size: 50px;
+    font-family: "Shadows Into Light", cursive;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#p2{
+    margin-right: 130px;
+    margin-left: 170px;
+    font-size: 50px;
+}
+
+/* .img2{
+    margin-left: 70px;
+} */
+
+
+h2{
+    font-family: "Cinzel", serif;
+}
+
+.about{
+    font-family: "Shadows Into Light", cursive;
+    display: block;
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+}
+
+button{
+    display: block;
+    text-align: center;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom:20px;
+    font-family: "Shadows Into Light", cursive;
+}
+h5{
+    font-size: 50px;
+}
+
+a{
+    color: white;
+}
+
+@media (max-width: 1025px){
+    .jumbotron{
+        text-align: center;
+    }
+    .navbar-brand{
+        text-align: center;
+    }
+    .socialMedia{
+        /* display: none; */
+
+    }
+
+}
